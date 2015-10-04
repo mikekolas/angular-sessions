@@ -1,5 +1,5 @@
 var app = angular.module('app', []);
 
-app.controller('basic', function(){
-	alert("Hello World");
+app.controller('basic', function($scope){
+	$scope.name = "";
 });
